@@ -31,14 +31,7 @@ class CreateUser(graphene.Mutation):
 class Mutation(graphene.ObjectType):
     create_user = CreateUser.Field()
 
-# Creating a query for listing all users
-class Query(graphene.ObjectType):
-    users = graphene.List(UserType)
-
-    def resolve_users(self, info):
-        return get_user_model().objects.all()
-
-# Creating a me query
+# Creating a Query for a User
 class Query(graphene.AbstractType):
     me = graphene.Field(UserType)
     users = graphene.List(UserType)
