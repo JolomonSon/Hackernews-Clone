@@ -2,6 +2,7 @@ import graphene
 from graphene_django import DjangoObjectType
 from users.schema import UserType
 from links.models import Link, Vote
+from graphql import GraphQLError
 
 class LinkType(DjangoObjectType):
     class Meta:
