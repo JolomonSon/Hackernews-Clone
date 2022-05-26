@@ -1,3 +1,3 @@
 # Hackernews-Clone
 
-Readme file will be updated soon
+A Learning Guide to GraphQL
