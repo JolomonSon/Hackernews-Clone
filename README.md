@@ -12,3 +12,6 @@ GraphQL is an amazing API which has Frontend and Backend languages you can Integ
 ##### We'll work you through the steps thoroughly don't you worry
 
 1. Insomnia (As we proceed in the course (User Authentication) you will get a better understanding of this)
+
+
+### readme will be updated soon
