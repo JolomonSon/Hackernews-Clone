@@ -32,4 +32,4 @@ The **query** requests for information while the **mutation** sends information 
 
 
 
-#### README will be updated soon.
+#### README will be updated soon
